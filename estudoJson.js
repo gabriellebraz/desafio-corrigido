@@ -24,6 +24,6 @@ const apararUnhas = () => {
 
 atenderCliente(pets[0], darBanho);
 console.log("---------")
-atenderCliente(pets[2], apararUnhas);
+atenderCliente(pets[1], apararUnhas);
 console.log("---------")
-atenderCliente(pets[1]);
+atenderCliente(pets[2]);

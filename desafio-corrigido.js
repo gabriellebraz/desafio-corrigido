@@ -19,6 +19,8 @@ const listarPets = () => {
         for (const servico of pet.servicos) {
             console.log(`${servico.data} - ${servico.nome}`);
         }
+        let vacinado = pet.vacinado == true ? 'Vacinado' : 'Não vacinado'; //if ternario para verificar se o pet é vacinado
+        console.log(vacinado + '\n');
     }
 }
 
@@ -27,8 +29,11 @@ const vacinarPet = pet => {
         pet.vacinado = true;
         console.log(`${pet.nome} foi vacinado com sucesso!`);
     } else {
+
         console.log(`Ops, ${pet.nome} já está vacinado!`);
     }
+   
+
 }
 
 const campanhaVacina = () => {
@@ -41,6 +46,7 @@ const campanhaVacina = () => {
             vacinarPet(pet);
             petVacinadosCampanha++;
         }
+        
     }
     console.log(`${petVacinadosCampanha} pets foram vaciados nessa campanha!`);
 };
@@ -80,14 +86,17 @@ const apararUnhasPet = pet => {
 // console.log("-----------")
  //listarPets();
 
-adicionarPet({
-    "nome": "Romarinho",
-    "tipo": "cachorro",
-    "idade": 3,
-    "raca": "American",
-    "peso": 28,
-    "tutor": "Bruno",
-    "contato": "(11) 99999-9999",
-    "vacinado": true,
-    "servicos": []
-});
+
+// adicionarPet({
+//     "nome": "bartolomeu",
+//     "tipo": "cachorro",
+//     "idade": 4,
+//     "raca": "American",
+//     "peso": 25,
+//     "tutor": "Bruno",
+//     "contato": "(11) 99999-9999",
+//     "vacinado": false,
+//     "servicos": []
+// });
+
+// listarPets();
