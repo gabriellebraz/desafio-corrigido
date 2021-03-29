@@ -4,6 +4,8 @@ let pets = bancoDados.pets;
 
 
 const atenderCliente = (pet, servico) => {
+    
+    console.log(`Bem vindo, ${pet.tutor}`);
     console.log(`Olá, ${pet.nome}`);
 
     // if(servico){
@@ -11,7 +13,7 @@ const atenderCliente = (pet, servico) => {
     // }
     (servico) ? servico() : console.log('só vim dar uma olhadinha');
 
-    console.log('Tchau, até mais!');
+    console.log('Tchau, volte sempre!!');
 }
 
 const darBanho = () => {
@@ -24,6 +26,6 @@ const apararUnhas = () => {
 
 atenderCliente(pets[0], darBanho);
 console.log("---------")
-atenderCliente(pets[1], apararUnhas);
+atenderCliente(pets[2], apararUnhas);
 console.log("---------")
-atenderCliente(pets[2]);
+atenderCliente(pets[1]);

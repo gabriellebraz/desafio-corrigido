@@ -37,7 +37,7 @@ const vacinarPet = pet => {
 }
 
 const campanhaVacina = () => {
-    console.log("Campanha de vacina 2020");
+    console.log("Campanha de vacina 2021");
     console.log("vacinando...");
 
     let petVacinadosCampanha = 0;
@@ -46,7 +46,8 @@ const campanhaVacina = () => {
             vacinarPet(pet);
             petVacinadosCampanha++;
         }
-        
+       
+        }
     }
     console.log(`${petVacinadosCampanha} pets foram vaciados nessa campanha!`);
 };
