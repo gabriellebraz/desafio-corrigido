@@ -1,0 +1,23 @@
+{
+  "name": "desafio-corrigido",
+  "version": "1.0.0",
+  "description": "",
+  "main": "desafio-corrigido.js",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriellebraz/desafio-corrigido.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriellebraz/desafio-corrigido/issues"
+  },
+  "homepage": "https://github.com/gabriellebraz/desafio-corrigido#readme"
+}
