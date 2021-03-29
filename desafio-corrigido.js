@@ -48,10 +48,9 @@ const campanhaVacina = () => {
         }
        
         }
-    }
-    console.log(`${petVacinadosCampanha} pets foram vaciados nessa campanha!`);
-};
-
+        console.log(`${petVacinadosCampanha} pets foram vaciados nessa campanha!`);
+    };
+   
 const adicionarPet = novoPet => {
         bancoDados.pets.push(novoPet);
         atualizarBanco();
