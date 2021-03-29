@@ -7,13 +7,13 @@ let bancoDados = fs.readFileSync('bancoDados.json', 'utf-8');
 bancoDados = JSON.parse(bancoDados);
 
 bancoDados.pets.push({
-    "nome": "Pedrita",
-    "tipo": "cachorro",
+    "nome": "Morgana",
+    "tipo": "gato",
     "idade": 10,
-    "raca": "Pastor Alemão",
-    "peso": 18,
-    "tutor": "João",
-    "contato": "(11) 98899-9999",
+    "raca": "SRD",
+    "peso": 3,
+    "tutor": "Gabrielle",
+    "contato": "(11) 97589-8599",
     "vacinado": true,
     "servicos": []
 });

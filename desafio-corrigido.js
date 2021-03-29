@@ -78,7 +78,7 @@ const apararUnhasPet = pet => {
 // darBanhoPet(bancoDados.pets[0]);
 
 // console.log("-----------")
-// listarPets();
+ //listarPets();
 
 adicionarPet({
     "nome": "Romarinho",
